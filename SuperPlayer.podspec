@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
 
     spec.dependency 'AFNetworking'
     spec.dependency 'BYSDWebImage'
-    spec.dependency 'Masonry'
+    spec.dependency 'Masonry', '~> 1.1.0'
 
     spec.static_framework = true
     spec.default_subspec = 'Player'
